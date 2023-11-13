@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    header{
+        background-color: lightslategray;
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: baseline;
+            list-style: none;
+            li{
+                padding: 1rem;
+                a{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    color:white;
+                }
+            }
+        }
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            input{
+                border-radius: 2rem;
+                border: 1px solid black;
+                padding: 0.2rem;
+                &:nth-of-type(3){
+                    width: fit-content;
+                    padding: 0.5rem;
+                    background-color: lightslategray;
+                    border: none;
+                    border-radius: 0.2rem;
+                    color: white;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+    }
+}
