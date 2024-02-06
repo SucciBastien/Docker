@@ -1,0 +1,33 @@
+Docker : Une application qui permet le deploiement d'un service web permettant d'effectuer des requetes via un programme contenu dans un conteneur
+
+Choses à savoir : 
+
+    conteneur (equivalent d'instance) : une boite contenant différents programmes qui sera possible d'utiliser pour déployer un service web. Un conteneur nécessite une image
+    
+    image (equivalent d'une classe) : Un élément contenant toutes les informations permettant de créer un conteneur
+
+    docker Hub : site permettant de trouver une image spécifique pour ensuite s'en servir sur docker
+
+    docker file : fichier permettant de créer une image personnalisé à partir d'une image existante
+
+    docker-compose.yml : fichier permettant de créer une configuration personnalisé de conteneurs relié les uns aux autres
+
+    les avantages de Docker : utile pour gérer toutes les requetes sql ou php | efficace et viable (ca marche tout le temp) | utile pour tester/utiliser différentes version d'une application
+
+Commandes :
+
+	docker run hello-world : permet de créer un container contenant le programme basique hello world
+
+	docker ps -a : voir tous les container
+
+	docker ps : voir tous les container actifs
+
+	docker image ls OU ALORS docker images : voir les images
+
+	docker rm "idContainer" : supprimer un container spécifique (idContainer n'a pas besoin d'être complet s'il est suffisant pour le trouver parmis tous les container)
+
+	docker rm "idContainer1" "idContainer2" : supprimer plusieurs container à la fois
+
+	docker image rm "idImage" : supprimer une image spécifique
+
+	docker image rm "idImage1" "idImage2" : supprimer plusieurs images à la fois
