@@ -31,3 +31,13 @@ Commandes :
 	docker image rm "idImage" : supprimer une image spécifique
 
 	docker image rm "idImage1" "idImage2" : supprimer plusieurs images à la fois
+
+	apt-get install iputils-ping: installe les commandes linux ping
+
+	apt-get install iproute2
+
+	ip -c a: voir les ip du container
+
+	ping "ip": envoyer des ping au container correspondant a l'adresse ip fournie 
+
+	docker network ls: liste tous les network
